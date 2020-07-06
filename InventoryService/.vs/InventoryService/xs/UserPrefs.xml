@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{839B597D-586D-4BEA-BF78-034E0C230C21}|Default">
+  <MonoDevelop.Ide.ItemProperties.InventoryService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.yml">
+    <Files>
+      <File FileName="appsettings.json" Line="11" Column="43" />
+      <File FileName="InventoryService.sln" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Models/InventoryContext.cs" Line="1" Column="1" />
+      <File FileName="Models/Products.cs" Line="1" Column="1" />
+      <File FileName="Models/UserInfo.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ProductsController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/TokenController.cs" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="23" Column="1" />
+      <File FileName=".dockerignore" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InventoryService" expanded="True">
+            <Node name="docker-compose" expanded="True" selected="True" />
+            <Node name="InventoryService" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <AuthorInfo Name="David Oster" Email="paspa@hotmail.com" Copyright="" Company="" Trademark="" />
+</Properties>

@@ -1,0 +1,16 @@
+services:
+  inventoryservice:
+    build:
+      context: /Users/mac/software/inventory-management-rest-service-asp-dotnet-core/InventoryService
+      dockerfile: ./Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: inventoryservice
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/mac/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/mac/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
